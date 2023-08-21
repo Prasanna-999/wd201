@@ -21,7 +21,7 @@ fs.readFile("registration.html",(err,register)=>{
   if(err){
     throw err;
   }
-  projectContent=project;
+  regContent=register;
 });
 http
 .createServer((request,response)=>{
